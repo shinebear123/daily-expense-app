@@ -1,4 +1,4 @@
-﻿import calendar
+import calendar
 import json
 import os
 import tkinter as tk
@@ -681,6 +681,7 @@ class DailyExpenseApp:
         self.memo_var.set("")
 
         self.update_expense_list()
+
         self.update_summary()
 
     def delete_selected_expenses(self):
